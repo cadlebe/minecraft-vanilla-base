@@ -41,3 +41,7 @@ spec:
         volumeMounts:
           - name: minecraft-data
             mountPath:  /data
+      dnsPolicy: "None"
+      dnsConfig:
+        nameservers:
+          - 1.1.1.1
